@@ -5,5 +5,6 @@ public with sharing class TestGit {
         Boolean result = name.equalsIgnoreCase(newname);
         Boolean newresult = name.equals(newname);
         System.debug('Result->'+result);
+        System.debug('New Result=>'+newresult);
     }
 }
