@@ -4,5 +4,6 @@ public with sharing class TestGit {
         String newname = 'TesT';
         Boolean newresult = name.equals(newname);
         System.debug('Result->'+newresult);
+        System.debug('Result->'+newresult);
     }
 }
