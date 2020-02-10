@@ -8,6 +8,5 @@ public with sharing class TestGit {
         System.debug('Result->'+newresult);
         String res = result ? 'Equals' : 'Not Equals';
         System.debug('new Result ='+res);
-        System.debug('abc');
     }
 }
