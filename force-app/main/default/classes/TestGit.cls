@@ -3,7 +3,6 @@ public with sharing class TestGit {
         String name = 'Test';
         String newname = 'TesT';
         Boolean result = name.equals(newname);
-        //Equals ignore case
         Boolean newresult = name.equalsIgnoreCase(newname);
         System.debug('Result->'+result);
         System.debug('Result->'+newresult);
